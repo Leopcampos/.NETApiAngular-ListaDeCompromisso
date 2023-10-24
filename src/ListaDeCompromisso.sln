@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaDeCompromisso.Presentation", "ListaDeCompromisso.Presentation\ListaDeCompromisso.Presentation.csproj", "{CBA45D48-8234-4D2E-BBF3-806650893917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Layer", "1 - Presentation Layer", "{A32BA0E3-FA1C-4620-8BE1-E4340015A4CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain Layer", "2 - Domain Layer", "{02EF65B9-3AE0-46AD-97E3-1D628E8B06F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeCompromisso.Domain", "ListaDeCompromisso.Domain\ListaDeCompromisso.Domain.csproj", "{423945C1-0346-4848-8F36-9FD09C02ED16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository Layer", "3 - Repository Layer", "{0486CAA3-E25F-4B14-BA6A-0C15C8467A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeCompromisso.Infra", "ListaDeCompromisso.Infra\ListaDeCompromisso.Infra.csproj", "{1291AF1C-A110-419A-8407-33D11D179464}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - CrossCutting", "4 - CrossCutting", "{26F4BCDE-C96E-440C-9683-21643069824D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeCompromisso.CrossCutting.Cryptography", "ListaDeCompromisso.CrossCutting.Cryptography\ListaDeCompromisso.CrossCutting.Cryptography.csproj", "{C9B45DD3-194B-4EF3-BE4F-4E472E887F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBA45D48-8234-4D2E-BBF3-806650893917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA45D48-8234-4D2E-BBF3-806650893917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA45D48-8234-4D2E-BBF3-806650893917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA45D48-8234-4D2E-BBF3-806650893917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423945C1-0346-4848-8F36-9FD09C02ED16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423945C1-0346-4848-8F36-9FD09C02ED16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423945C1-0346-4848-8F36-9FD09C02ED16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423945C1-0346-4848-8F36-9FD09C02ED16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1291AF1C-A110-419A-8407-33D11D179464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1291AF1C-A110-419A-8407-33D11D179464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1291AF1C-A110-419A-8407-33D11D179464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1291AF1C-A110-419A-8407-33D11D179464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B45DD3-194B-4EF3-BE4F-4E472E887F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B45DD3-194B-4EF3-BE4F-4E472E887F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B45DD3-194B-4EF3-BE4F-4E472E887F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B45DD3-194B-4EF3-BE4F-4E472E887F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBA45D48-8234-4D2E-BBF3-806650893917} = {A32BA0E3-FA1C-4620-8BE1-E4340015A4CD}
+		{423945C1-0346-4848-8F36-9FD09C02ED16} = {02EF65B9-3AE0-46AD-97E3-1D628E8B06F7}
+		{1291AF1C-A110-419A-8407-33D11D179464} = {0486CAA3-E25F-4B14-BA6A-0C15C8467A24}
+		{C9B45DD3-194B-4EF3-BE4F-4E472E887F2E} = {26F4BCDE-C96E-440C-9683-21643069824D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEE7FABE-BD7B-41F9-A3F2-C2A32FF393E8}
+	EndGlobalSection
+EndGlobal
