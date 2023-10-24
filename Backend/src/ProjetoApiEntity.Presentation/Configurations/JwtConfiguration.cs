@@ -7,6 +7,10 @@ namespace ProjetoApiEntity.Presentation.Configurations
 {
     public static class JwtConfiguration
     {
+        /// <summary>
+        /// Classe para configuração do Jwt
+        /// </summary>
+        /// <param name="builder"></param>
         public static void AddJwt(this WebApplicationBuilder builder)
         {
             #region Lendo a configuração da palavra-secreta (appsettings.json)
