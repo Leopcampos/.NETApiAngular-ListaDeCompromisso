@@ -44,19 +44,18 @@
       </li>
       <hr class="sidebar-divider">
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-           aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Compromissos</span>
+        <a class="nav-link" routerLink="cadastro-compromisso">
+          <i class="fas fa-fw fa-plus"></i>
+          <span>Cadastrar Compromissos</span>
         </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Gerenciar Compromissos:</h6>
-            <a class="collapse-item" routerLink="cadastro-compromisso">Cadastrar Compromissos</a>
-            <a class="collapse-item" routerLink="consulta-compromisso">Consultar Compromissos</a>
-          </div>
-        </div>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="consulta-compromisso">
+          <i class="fas fa-fw fa-search"></i>
+          <span>Consultar Compromissos</span>
+        </a>
+      </li>
+
     </ul>
     <div id="content-wrapper" class="d-flex flex-column">
       <div id="content">
@@ -73,20 +72,11 @@
               </a>
             </li>
             <div class="topbar-divider d-none d-sm-block"></div>
-            <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Usuário autenticado</span>
+            <li class="nav-item">
+              <a class="nav-link" (click)="logout()" style="cursor: pointer;">
+                <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Sair do Sistema</span>
               </a>
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                   aria-labelledby="userDropdown">
-
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" (click)="logout()">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Sair do Sistema
-                </a>
-              </div>
             </li>
           </ul>
         </nav>
